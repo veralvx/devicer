@@ -1,12 +1,12 @@
 [project]
 name = "devicer"
-version = "0.1.0"
+version = "0.1.1"
 description = "Provides a helper to detect the best Pytorch device (env override, CUDA, MPS, XPU, or CPU) and to clear CUDA caches."
 readme = "README.md"
 authors = [{ name = "VERA LVX", email = "veralvx@veralvx.com" }]
 maintainers = [{ name = "VERA LVX", email = "veralvx@veralvx.com" }]
 requires-python = ">=3.10"
-dependencies = ["numpy~=2.0", "torch~=2.5"]
+dependencies = ["numpy~=2.0", "torch>=2.5"]
 license = "MIT"
 keywords = [
     "pytorch",
